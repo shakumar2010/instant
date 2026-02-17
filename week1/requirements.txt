@@ -1,3 +1,7 @@
 fastapi
 uvicorn
+<<<<<<< HEAD
 openai
+=======
+openai
+>>>>>>> a2202acec21790fd20cf38aa489e081fe546acd4
