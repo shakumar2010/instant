@@ -16,7 +16,7 @@ def idea():
             if text:
                 lines = text.split("\n")
                 for line in lines:
-                    yield f"data: {line}\n"
+                    yield f"{line}"
                 yield "\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
